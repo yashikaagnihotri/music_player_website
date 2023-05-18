@@ -1,0 +1,157 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+    body{
+        background-color: rgb(38, 38, 38);
+    }
+    
+    /* NAVIGATION BAR */
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-bar-favicon{
+    display: flex;
+    justify-content: center;
+    height: 39px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #F6F1F1;
+}
+
+.navbar-brand{
+    color: #F6F1F1;
+    align-items: left;
+    position: absolute;
+    margin: 0 60px;
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+    color: #F6F1F1;
+}
+
+.nav-link:hover{
+    color: #F6F1F1;
+    font-weight: bold;
+}
+
+
+.search-bar{
+    margin-top: 7px;
+    margin-right: 8px;
+    height: 27px;
+}
+
+
+/* CENTER */
+
+.container{
+    margin-top: 55px;
+    min-height: 74.3vh;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    padding: 18px 27px;
+}
+
+.song-list-heading{
+    color: #F6F1F1;
+}
+
+.song-item-contain{
+    margin-top: 34px;
+    margin-left: 45px;
+}
+
+.music-blue{
+    color: #19A7CE;
+    font-weight: bold;
+    text-shadow: #F6F1F1;
+}
+
+.song-item{
+    background-color: #F6F1F1;
+    width: 90%;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.song-item-play{
+    margin-bottom: 6px;
+}
+
+
+.song-item img{
+    height: 52px;
+    border-radius: 5px 0 0 5px;
+}
+
+.song-item i{
+    cursor: pointer;
+}
+
+
+
+/* BOTTOM */
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.play-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#range-bar{
+    width: 100vh;
+}
+
+.icons{
+    display: flex;
+}
+
+.fa-solid{
+    height: 18px;
+    margin: 10px 17px 0;
+}
+
+.icons i{
+ cursor: pointer;
+}
+
+.range-slider{
+    background-color: #F6F1F1;
+    cursor: pointer;
+}
+
+.song-info-display{
+    color: #F6F1F1;
+    position: relative;
+    right: 9%;
+}
+
+.song-name-bottom{
+    padding: 0;
+}
+
+.playing-gif{
+    height: 90px;
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+}
